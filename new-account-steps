@@ -1,1 +1,19 @@
+MySQL- Steps
+----------------
+-- SYNTAX FOR  MySQL CREATE USER with PASSWORD
+CREATE USER [IF NOT EXISTS] [User_Name]
+    IDENTIFIED [BY/WITH] ['Password'];
+
+step 1) to know complete account details =>   SELECT  user from  MYSQL.user; 
+
+Step 2) to create accout ex : CREATE user  john@localhost IDENTIFIED by 'xxYYYxx';
+
+step 3) to get all database details : SHOW   DATABASES;
+
+step 4) CREATE DATABASE johndb;
+
+step 5) use johndb;
+
+step 6) GRANT ALL PRIVILEGES on johndb.* to john@localhost;
+
 
