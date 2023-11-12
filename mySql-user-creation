@@ -16,4 +16,15 @@ step 5) use johndb;
 
 step 6) GRANT ALL PRIVILEGES on johndb.* to john@localhost;
 
+Ex: 
+CREATE user  kc IDENTIFIED by 'kc';
+
+CREATE DATABASE kc
+
+SHOW   DATABASES;
+
+use kc;
+
+GRANT ALL PRIVILEGES on kc.* to kc;
+
 
